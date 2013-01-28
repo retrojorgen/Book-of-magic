@@ -1,1 +1,2 @@
-Create a remote branch: git push REMOTE LOCAL_BRANCH:NAME_OF_REMOTE_BRANCH
+Create a remote branch: git push remotename localbranch:remotebranch
+Create a local branch from master: git checkout -b master:branchname
