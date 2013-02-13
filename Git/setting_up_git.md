@@ -1,2 +1,5 @@
-Create a remote branch: git push remotename localbranch:remotebranch<br />
-Create a local branch from master: git checkout -b master:branchname
+if your remote repository does not have a remote master branch<br />
+"git clone url"<br />
+"git checkout -b master",<br />
+"git push origin master:master".<br />
+"git checkout -b branchname".
