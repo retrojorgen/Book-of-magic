@@ -1,0 +1,16 @@
+jj:jjacobsens-awesome-osloforeskin-y12 jorgenjacobsen$ git co next
+jj:jjacobsens-awesome-osloforeskin-y12 jorgenjacobsen$ git fetch origin
+jj:jjacobsens-awesome-osloforeskin-y12 jorgenjacobsen$ git reset --hard origin/next
+jj:jjacobsens-awesome-osloforeskin-y12 jorgenjacobsen$ git log
+jj:jjacobsens-awesome-osloforeskin-y12 jorgenjacobsen$ git branch -r
+jj:jjacobsens-awesome-osloforeskin-y12 jorgenjacobsen$ git fetch awesome
+jj:jjacobsens-awesome-osloforeskin-y12 jorgenjacobsen$ git reset --hard awesome/next
+jj:jjacobsens-awesome-osloforeskin-y12 jorgenjacobsen$ git log
+jj:jjacobsens-awesome-osloforeskin-y12 jorgenjacobsen$ git branch
+jj:jjacobsens-awesome-osloforeskin-y12 jorgenjacobsen$ git log FRONTER-5802nd
+jj:jjacobsens-awesome-osloforeskin-y12 jorgenjacobsen$ git cherry-pick ac7d1f5745a1326ea255bbd038e8b017a55ba4a0
+jj:jjacobsens-awesome-osloforeskin-y12 jorgenjacobsen$ git reset --hard awesome/next
+jj:jjacobsens-awesome-osloforeskin-y12 jorgenjacobsen$ git checkout FRONTER-5802nd
+jj:jjacobsens-awesome-osloforeskin-y12 jorgenjacobsen$ git rebase next
+jj:jjacobsens-awesome-osloforeskin-y12 jorgenjacobsen$ git push
+jj:jjacobsens-awesome-osloforeskin-y12 jorgenjacobsen$ git push origin -f
