@@ -3,12 +3,16 @@ export EXTLIBS_ROOT=/fronter/products/extlibs
 export PATH="/usr/local/mysql/bin:$PATH"
 export PATH=/opt/local/bin:/opt/local/sbin:$PATH
 
+alias pho="open -a 'Adobe Photoshop CS6'"
+alias ils="open -a 'Adobe Illustrator CS6'"
+
 alias ss='/Applications/Sublime\ Text\ 2.app/Contents/SharedSupport/bin/subl'
 alias jmeter='/fronter/apache-jmeter/bin/jmeter'
 alias ss='/Applications/Sublime\ Text\ 2.app/Contents/SharedSupport/bin/subl'
 alias ls='ls -lhaG'
 alias glg='git log --date-order --all --graph --format="%C(green)%h%Creset %C(yellow)%an%Creset %C(blue bold)%ar%Creset %C(red bold)%d%Creset%s"'
 alias src='source ~/.bash_profile'
+alias fless='ant less csscaches; terminal-notifier -message "Less:" "Compile finished"'
 
 # lock computer
 alias lock='/System/Library/CoreServices/"Menu Extras"/User.menu/Contents/Resources/CGSession -suspend'
@@ -33,5 +37,4 @@ source ~/.git-completion.sh
 parse_git_branch() {
     git branch 2> /dev/null | sed -e '/^[^*]/d' -e 's/* \(.*\)/ (\1)/'
 }
-export PS1="\[\033[0;32m\]\!:\[\033[0;36m\]\A:\[\033[01;34m\]\W\$\[\033[00m\]\$(parse_git_branch) "
-
+export PS1="\[\033[0;36m\]\A:\[\033[01;34m\]\w\$\[\033[00m\]\$(parse_git_branch) "
