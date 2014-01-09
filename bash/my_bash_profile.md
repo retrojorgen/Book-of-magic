@@ -1,9 +1,9 @@
-'
+
 export PATH=/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin:/usr/X11/bin:/androidsdk/tools
 export EXTLIBS_ROOT=/fronter/products/extlibs
 export PATH="/usr/local/mysql/bin:$PATH"
 export PATH=/opt/local/bin:/opt/local/sbin:$PATH
-`
+
 alias pho="open -a 'Adobe Photoshop CS6'"
 alias ils="open -a 'Adobe Illustrator CS6'"
 
@@ -36,4 +36,3 @@ parse_git_branch() {
 export PS1="\[\033[0;36m\]\A:\[\033[01;34m\]\w\$\[\033[00m\]\$(parse_git_branch) "
 source ~/.git-completion.bash
 export PATH="/usr/local/bin:/usr/local/sbin:/usr/local/mysql/bin:/usr/local/share/npm/bin:$PATH"
-`
